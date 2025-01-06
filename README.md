@@ -4,4 +4,4 @@
 
 Site criado para com Vite!
 
-- Para acessar o site [clique aqui](https://tthiagocarlosdev.github.io/thebestwarmovies/)
+- Para acessar o site [clique aqui](https://thebestwarmovies.vercel.app/)
