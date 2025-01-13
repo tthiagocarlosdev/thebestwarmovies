@@ -25,12 +25,10 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    /* background-color: purple; */
   }
 
   #input-search {
     width: 100%;
-    /* background-color: palevioletred; */
     min-height: 50px;
     display: flex;
     justify-content: center;
