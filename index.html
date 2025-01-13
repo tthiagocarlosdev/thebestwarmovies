@@ -1,13 +1,45 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Blog de Filmes de Guerra</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Meu Blog de Filmes de Guerra</h1>
+    <p>Bem-vindo ao meu blog! Aqui está a lista dos meus filmes favoritos.</p>
+  </header>
+
+  <main id="main-content" class="page_width">
+
+    <section id="films-counter">
+        <p id="film-counter">Total de filmes: 0</p>
+    </section>
+    
+    <section id="input-search">
+        <input type="text" id="search" placeholder="Buscar por título...">
+    </section>
+
+    <section id="film-list">
+      <!-- A lista de filmes será gerada aqui -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Meu Blog de Filmes de Guerra</p>
+  </footer>
+
+  <!-- Elemento dialog para exibir detalhes -->
+    <dialog id="film-dialog">
+        <div id="dialog-content">
+        <!-- O conteúdo será preenchido dinamicamente -->
+        </div>
+        <button id="close-dialog">Fechar</button>
+    </dialog>
+  
+
+    <script type="module" src="script.js"></script>
+</body>
 </html>
